@@ -18,7 +18,7 @@ function onError(error) {
 function image(data){
   localStorage.photo = data.pictureUrl
   console.log(localStorage.photo);
-  window.location.href = '../views/profile.html';
+  window.location.href = 'views/profile.html';
 
 }
 
