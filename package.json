@@ -1,5 +1,5 @@
 {
-  "name": "api-swapi",
+  "name": "api-linkedln",
   "version": "1.0.0",
   "description": "> Recuerda seguir siempre esta [guía de estilos](https://github.com/Laboratoria/js-style-guide/)",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Patty8909/api-swapi.git"
+    "url": "git+https://github.com/Nefelijm/api-linkedln.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Patty8909/api-swapi/issues"
+    "url": "https://github.com/Nefelijm/api-linkedln/issues"
   },
-  "homepage": "https://github.com/Patty8909/api-swapi#readme",
+  "homepage": "https://github.com/Nefelijm/api-linkedln#readme",
   "dependencies": {
     "express": "^4.16.2"
   }
