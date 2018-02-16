@@ -8,10 +8,24 @@ background-color: rgb(86, 116, 163);
 }
 
 .login-button{
- margin-top: 38%;
+ margin-top: 18%;
  font-size: 30px;
  margin-left:15%;
  background-color: yellow;
- font-family: Arial, Helvetica, sans-serif;
- 
+ font-family: Arial, Helvetica, sans-serif; 
+}
+
+.text{
+ text-align: center;
+ font-size: 25px; 
+ color: white;
+ margin-top: 2%;
+ color: rgb(213, 236, 8);
+}
+
+.img{
+ margin-left: 30%;
+ width: 150px;
+ height: 180px;
+ margin-top: 5%;
 }
