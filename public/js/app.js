@@ -5,9 +5,14 @@ function onLinkedInLoad() {
 
 // Handle the successful return from the API call
 function onSuccess(data) {
+  //Aqui nos retorna la data
   console.log(data);
+  //Guardamos para utilizarlos en la siguiente vista
   localStorage.name = data.firstName;
-  console.log(localStorage.name)
+  localStorage.lastname = data.lastName; 
+  localStorage.description = data.headline;
+ 
+ 
 }
 
 // Handle an error response from the API call
@@ -18,7 +23,7 @@ function onError(error) {
 function image(data){
   localStorage.photo = data.pictureUrl
   console.log(localStorage.photo);
-  window.location.href = '../views/profile.html';
+  window.location.href = 'views/profile.html';
 
 }
 
